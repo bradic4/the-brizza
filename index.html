@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Brizza — Men's Hair Studio | Beograd</title>
+  <meta name="description" content="The Brizza Men's Hair Studio — profesionalno šišanje, brijanje i oblikovanje brade u Beogradu. Tri iskusna berbera, jedan prostor, nula kompromisa. Zakažite termin online." />
+  <meta name="keywords" content="berbernica beograd, šišanje beograd, brijanje beograd, muška frizura, the brizza, hair studio, berberin beograd" />
+  <meta property="og:title" content="The Brizza — Men's Hair Studio" />
+  <meta property="og:description" content="Profesionalna berbernica u Beogradu. Šišanje, brijanje, oblikovanje brade." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rye&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Libre+Baskerville:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <header class="nav-wrapper" role="banner">
+    <nav class="nav-pill" aria-label="Glavna navigacija">
+      <a href="#pocetna" class="nav-logo" aria-label="The Brizza — početna stranica">
+        <img class="nav-logo-img" src="the-brizza-logo.png" alt="The Brizza Men's Hair Studio" width="160" height="64" />
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#usluge" class="nav-link">Usluge</a></li>
+        <li><a href="#galerija" class="nav-link">Galerija</a></li>
+        <li><a href="#o-nama" class="nav-link">O nama</a></li>
+        <li><a href="#zakazivanje" class="nav-link nav-cta-link" id="nav-cta">Zakaži</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger-btn" aria-label="Otvori meni" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger-line" aria-hidden="true"></span>
+        <span class="hamburger-line" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ═══════════════ MOBILE MENU ═══════════════ -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobilni meni" aria-hidden="true">
+    <nav aria-label="Mobilna navigacija">
+      <ul class="mobile-nav-links" role="list">
+        <li class="mobile-nav-item"><a href="#usluge" class="mobile-nav-link" tabindex="-1">Usluge</a></li>
+        <li class="mobile-nav-item"><a href="#galerija" class="mobile-nav-link" tabindex="-1">Galerija</a></li>
+        <li class="mobile-nav-item"><a href="#o-nama" class="mobile-nav-link" tabindex="-1">O nama</a></li>
+        <li class="mobile-nav-item"><a href="#zakazivanje" class="mobile-nav-link mobile-nav-link--cta" tabindex="-1">Zakažite termin</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu-footer">
+      <p class="mobile-menu-addr">Beograd &middot; Est. 2019</p>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="pocetna" aria-label="Naslovna sekcija">
+      <div class="hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=85&fit=crop"
+          alt=""
+          aria-hidden="true"
+          class="hero-bg-img"
+          width="1600"
+          height="1067"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero-bg-overlay"></div>
+      </div>
+
+      <div class="hero-center reveal">
+        <div class="hero-logo-wrap">
+          <img class="hero-logo-img" src="the-brizza-logo.png" alt="The Brizza Men's Hair Studio" width="640" height="640" />
+        </div>
+
+        <div class="hero-divider" aria-hidden="true"></div>
+
+        <h1 class="hero-headline">
+          Precizno šišanje.<br />Pravo brijanje.
+        </h1>
+        <p class="hero-sub">
+          Berbernica u Beogradu koja zanatu daje prioritet nad brzinom.
+        </p>
+        <a href="#zakazivanje" class="btn-primary" id="hero-cta">
+          <span>Zakažite termin</span>
+          <span class="btn-arrow" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="hero-bottom" aria-hidden="true">
+        <span class="hero-location">Beograd &middot; Est. 2019</span>
+        <div class="hero-scroll">
+          <span class="scroll-line"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ MARQUEE ═══════════════ -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Šišanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Brijanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Oblikovanje brade</span><span class="marquee-sep">&#x2702;</span>
+        <span>Kompletna usluga</span><span class="marquee-sep">&#x2702;</span>
+        <span>The Brizza Studio</span><span class="marquee-sep">&#x2702;</span>
+        <span>Beograd</span><span class="marquee-sep">&#x2702;</span>
+        <span>Šišanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Brijanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Oblikovanje brade</span><span class="marquee-sep">&#x2702;</span>
+        <span>Kompletna usluga</span><span class="marquee-sep">&#x2702;</span>
+        <span>The Brizza Studio</span><span class="marquee-sep">&#x2702;</span>
+        <span>Beograd</span><span class="marquee-sep">&#x2702;</span>
+        <span>Šišanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Brijanje</span><span class="marquee-sep">&#x2702;</span>
+        <span>Oblikovanje brade</span><span class="marquee-sep">&#x2702;</span>
+        <span>Kompletna usluga</span><span class="marquee-sep">&#x2702;</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════ USLUGE ═══════════════ -->
+    <section class="section services" id="usluge" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="services-header reveal">
+          <h2 class="section-title" id="services-heading">Usluge</h2>
+          <p class="section-desc">Svaka usluga je prilagođena vama. Bez žurbe, bez kompromisa.</p>
+        </div>
+
+        <div class="services-list" role="list">
+
+          <article class="service-row reveal" role="listitem" aria-labelledby="srv-1">
+            <span class="srv-num" aria-hidden="true">01</span>
+            <div class="srv-main">
+              <h3 class="srv-name" id="srv-1">Šišanje</h3>
+              <p class="srv-desc">Rez koji prati oblik vašeg lica. Konsultacija je uvek deo usluge — razgovaramo pre nego što makaze krenu.</p>
+            </div>
+            <span class="srv-tag">Osnovna usluga</span>
+            <span class="srv-arrow" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </article>
+
+          <article class="service-row reveal reveal-delay-1" role="listitem" aria-labelledby="srv-2">
+            <span class="srv-num" aria-hidden="true">02</span>
+            <div class="srv-main">
+              <h3 class="srv-name" id="srv-2">Brijanje</h3>
+              <p class="srv-desc">Topli peškir, pena i ravna britva. Tradicija toplog brijanja koja traje trideset minuta i ostavlja kožu čistom.</p>
+            </div>
+            <span class="srv-tag">Premium</span>
+            <span class="srv-arrow" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </article>
+
+          <article class="service-row reveal reveal-delay-2" role="listitem" aria-labelledby="srv-3">
+            <span class="srv-num" aria-hidden="true">03</span>
+            <div class="srv-main">
+              <h3 class="srv-name" id="srv-3">Oblikovanje brade</h3>
+              <p class="srv-desc">Kontura koja naglašava crte lica. Precizno, čisto, definisano. Bez nagađanja — samo ono što vam pristaje.</p>
+            </div>
+            <span class="srv-tag">Specijalizovano</span>
+            <span class="srv-arrow" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </article>
+
+          <article class="service-row service-row--featured reveal" role="listitem" aria-labelledby="srv-4">
+            <span class="srv-num" aria-hidden="true">04</span>
+            <div class="srv-main">
+              <h3 class="srv-name" id="srv-4">Kompletna usluga</h3>
+              <p class="srv-desc">Šišanje, brijanje i oblikovanje brade u jednoj poseti. Za klijente koji izlaze potpuno sređeni i ne prave kompromise.</p>
+            </div>
+            <a href="#zakazivanje" class="btn-primary btn-small" id="service-cta" aria-label="Zakažite kompletnu uslugu">
+              <span>Zakaži</span>
+              <span class="btn-arrow" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Barbershop atmosphere image — offset, breaks the grid -->
+      <div class="services-img-aside" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=700&q=80&fit=crop"
+          alt="Berberin pri radu u The Brizza studiju"
+          loading="lazy"
+          width="700"
+          height="900"
+        />
+      </div>
+    </section>
+
+    <!-- ═══════════════ O NAMA ═══════════════ -->
+    <section class="section about" id="o-nama" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-visual reveal">
+            <div class="about-img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&q=80&fit=crop"
+                alt="Unutrašnjost The Brizza studija — vintage ogledala, kožne fotelje, toplo osvetljenje"
+                loading="lazy"
+                class="about-img"
+                width="800"
+                height="1000"
+              />
+              <!-- Floating badge overlaid on image -->
+              <div class="about-badge">
+                <svg viewBox="0 0 100 100" width="100" height="100" aria-hidden="true">
+                  <path id="circle-text-path" d="M 50,50 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="none"/>
+                  <text font-family="Cinzel, serif" font-size="9.5" letter-spacing="3.2" fill="#C9A227">
+                    <textPath href="#circle-text-path">BEOGRAD &bull; EST. 2019 &bull; </textPath>
+                  </text>
+                  <text x="50" y="54" font-family="Rye, serif" font-size="11" fill="white" text-anchor="middle">✦</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content reveal reveal-delay-1">
+            <h2 class="section-title" id="about-heading">Naša priča</h2>
+            <blockquote class="about-pull">
+              „Brizza je otvorena s jednom idejom: da svaka poseta bude vredna vašeg vremena."
+            </blockquote>
+            <p class="about-body">
+              Otvorili smo studio 2019. godine u Beogradu. Tri berbera, jedan prostor i jedno pravilo: radimo polako jer cilj je kvalitet, ne protok klijenata.
+            </p>
+            <p class="about-body">
+              Svaki berberin u Brizza timu je prošao dugogodišnju edukaciju i usavršava zanat svaki dan. Šišanje, brijanje i oblikovanje brade — ne radimo ništa na brzinu.
+            </p>
+
+            <div class="about-stats" role="list" aria-label="Ključni podaci o studiju">
+              <div class="about-stat" role="listitem">
+                <span class="stat-number">2019</span>
+                <span class="stat-label">Godina osnivanja</span>
+              </div>
+              <div class="about-stat" role="listitem">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Iskusna berbera</span>
+              </div>
+              <div class="about-stat" role="listitem">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Zadovoljnih klijenata</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ GALERIJA ═══════════════ -->
+    <section class="section gallery" id="galerija" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="gallery-header reveal">
+          <h2 class="section-title" id="gallery-heading">Radovi</h2>
+          <p class="section-desc">Svaki rez priča svoju priču.</p>
+        </div>
+      </div>
+      <div class="gallery-masonry reveal">
+        <div class="gal-col">
+          <div class="gal-item">
+            <img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?w=600&q=82&fit=crop" alt="Fade šišanje — precizna linija i prirodan prelaz" loading="lazy" width="600" height="780"/>
+          </div>
+          <div class="gal-item gal-item--short">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=82&fit=crop" alt="Tradicionalno brijanje ravnom britvom" loading="lazy" width="600" height="480"/>
+          </div>
+        </div>
+        <div class="gal-col gal-col--offset">
+          <div class="gal-item gal-item--short">
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=82&fit=crop" alt="Oblikovanje i konturiranje brade" loading="lazy" width="600" height="480"/>
+          </div>
+          <div class="gal-item">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=82&fit=crop" alt="Precizno šišanje — detalj" loading="lazy" width="600" height="760"/>
+          </div>
+        </div>
+        <div class="gal-col">
+          <div class="gal-item gal-item--tall">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&q=82&fit=crop" alt="Berberin u radu, The Brizza studio Beograd" loading="lazy" width="600" height="900"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ ZAKAZIVANJE ═══════════════ -->
+    <section class="section booking" id="zakazivanje" aria-labelledby="booking-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" id="booking-heading">Zakažite termin</h2>
+          <p class="section-desc">Izaberite uslugu, berbera i termin koji vam odgovara. Potvrda dolazi putem telefona.</p>
+        </div>
+
+        <div class="booking-wrapper reveal reveal-delay-1">
+
+          <!-- STEP 1 -->
+          <div class="booking-step">
+            <p class="step-label">01 &mdash; Usluga</p>
+            <div class="service-pills" role="group" aria-label="Izaberite uslugu">
+              <button class="service-pill active" data-service="sisanje" id="pill-sisanje" aria-pressed="true">Šišanje</button>
+              <button class="service-pill" data-service="brijanje" id="pill-brijanje" aria-pressed="false">Brijanje</button>
+              <button class="service-pill" data-service="brada" id="pill-brada" aria-pressed="false">Oblikovanje brade</button>
+              <button class="service-pill" data-service="komplet" id="pill-komplet" aria-pressed="false">Kompletna usluga</button>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="booking-step">
+            <p class="step-label">02 &mdash; Berberin</p>
+            <div class="barber-cards" role="group" aria-label="Izaberite berbera">
+              <button class="barber-card active" data-barber="nikola" id="barber-nikola" aria-pressed="true">
+                <div class="barber-avatar">
+                  <img src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?w=200&q=80&fit=crop&crop=face" alt="" aria-hidden="true" loading="lazy" width="200" height="200"/>
+                  <span class="barber-ring" aria-hidden="true"></span>
+                </div>
+                <span class="barber-name">Nikola</span>
+                <span class="barber-role">Vlasnik &middot; Senior</span>
+              </button>
+              <button class="barber-card" data-barber="stefan" id="barber-stefan" aria-pressed="false">
+                <div class="barber-avatar">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80&fit=crop&crop=face" alt="" aria-hidden="true" loading="lazy" width="200" height="200"/>
+                  <span class="barber-ring" aria-hidden="true"></span>
+                </div>
+                <span class="barber-name">Stefan</span>
+                <span class="barber-role">Berberin</span>
+              </button>
+              <button class="barber-card" data-barber="marko" id="barber-marko" aria-pressed="false">
+                <div class="barber-avatar">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80&fit=crop&crop=face" alt="" aria-hidden="true" loading="lazy" width="200" height="200"/>
+                  <span class="barber-ring" aria-hidden="true"></span>
+                </div>
+                <span class="barber-name">Marko</span>
+                <span class="barber-role">Berberin</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="booking-columns">
+            <!-- STEP 3 -->
+            <div class="booking-step booking-step--cal">
+              <p class="step-label">03 &mdash; Datum</p>
+              <div class="calendar" role="application" aria-label="Kalendar za izbor datuma">
+                <div class="calendar-header">
+                  <button class="cal-nav" id="cal-prev" aria-label="Prethodni mesec">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M10 4L6 8l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                  <span class="cal-month-label" id="cal-month-label" aria-live="polite"></span>
+                  <button class="cal-nav" id="cal-next" aria-label="Sledeći mesec">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                </div>
+                <div class="calendar-weekdays" aria-hidden="true">
+                  <span>Po</span><span>Ut</span><span>Sr</span><span>Če</span><span>Pe</span><span>Su</span><span>Ne</span>
+                </div>
+                <div class="calendar-grid" id="calendar-grid" role="grid" aria-label="Dani u mesecu"></div>
+              </div>
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="booking-step booking-step--time">
+              <p class="step-label">04 &mdash; Vreme</p>
+              <div class="time-slots" role="group" aria-label="Dostupni termini" id="time-slots-grid"></div>
+            </div>
+          </div>
+
+          <!-- STEP 5: KONTAKT PODACI -->
+          <div class="booking-step" id="step-contact">
+            <p class="step-label">05 &mdash; Vaši podaci</p>
+            <div class="contact-fields">
+              <div class="contact-field">
+                <label class="field-label" for="contact-name">Ime i prezime</label>
+                <input
+                  class="field-input"
+                  type="text"
+                  id="contact-name"
+                  name="contact-name"
+                  placeholder="Npr. Nikola Jovanović"
+                  autocomplete="name"
+                  aria-required="true"
+                />
+              </div>
+              <div class="contact-field">
+                <label class="field-label" for="contact-phone">Broj telefona</label>
+                <input
+                  class="field-input"
+                  type="tel"
+                  id="contact-phone"
+                  name="contact-phone"
+                  placeholder="Npr. 064 123 4567"
+                  autocomplete="tel"
+                  aria-required="true"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- CONFIRM -->
+          <div class="booking-confirm">
+            <div class="booking-summary" id="booking-summary" aria-live="polite">
+              <span class="summary-text" id="summary-text">Izaberite datum i termin za zakazivanje</span>
+            </div>
+            <button class="btn-confirm" id="confirm-btn" aria-label="Potvrdite zakazivanje termina" disabled>
+              <span>Potvrdi zakazivanje</span>
+              <span class="btn-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="kontakt" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+
+        <!-- Big logo -->
+        <div class="footer-logo-block">
+          <img class="footer-logo-img" src="the-brizza-logo.png" alt="The Brizza Men's Hair Studio" width="320" height="320" />
+          <p class="footer-tagline">Vaš stil. Naš zanat.</p>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h3 class="footer-col-title">Kontakt</h3>
+            <address class="footer-address">
+              <p><a href="tel:+381000000000" class="footer-link" id="footer-phone">+381 (0)11 000 0000</a></p>
+              <p><a href="mailto:info@thebrizza.rs" class="footer-link" id="footer-email">info@thebrizza.rs</a></p>
+              <p>Beograd, Srbija</p>
+            </address>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-col-title">Radno vreme</h3>
+            <dl class="hours-list">
+              <dt>Ponedeljak &mdash; Petak</dt>
+              <dd>09:00 &mdash; 20:00</dd>
+              <dt>Subota</dt>
+              <dd>09:00 &mdash; 17:00</dd>
+              <dt>Nedelja</dt>
+              <dd>Zatvoreno</dd>
+            </dl>
+          </div>
+          <div class="footer-col footer-col--cta">
+            <h3 class="footer-col-title">Rezervišite</h3>
+            <p class="footer-cta-text">Slobodan termin čeka. Zakažite danas.</p>
+            <a href="#zakazivanje" class="btn-primary" id="footer-cta-btn">
+              <span>Zakažite termin</span>
+              <span class="btn-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2024 The Brizza Men's Hair Studio. Sva prava zadržana.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ MODAL ═══════════════ -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal">
+      <div class="modal-icon" aria-hidden="true">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="22" stroke="#C9A227" stroke-width="1.5"/>
+          <path d="M14 24l7 7 13-14" stroke="#C9A227" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2 class="modal-title" id="modal-title">Termin zakazan</h2>
+      <p class="modal-body" id="modal-body">Kontaktiraćemo vas radi potvrde termina. Vidimo se u Brizza studiju!</p>
+      <button class="btn-primary" id="modal-close" aria-label="Zatvori prozor">
+        <span>Zatvori</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
