@@ -989,8 +989,11 @@ address { font-style: normal; }
   .srv-desc { font-size: 0.8125rem; }
   .service-row--featured { grid-template-columns: 36px 1fr; }
   .service-row--featured .btn-primary.btn-small {
+    grid-column: 2;
+    justify-self: start;
     min-height: 44px;
     padding: 0.65rem 1.25rem;
+    margin-top: 0;
   }
 
   /* Booking */
